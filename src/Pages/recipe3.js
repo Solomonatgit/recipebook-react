@@ -1,7 +1,7 @@
 import { Fragment } from "react";
 import { Link } from "react-router-dom";
 
-function Recipe1() {
+function Recipe3() {
   return (
     <Fragment>
       <main>
@@ -12,7 +12,7 @@ function Recipe1() {
                 <div className="news-thumb mb-4">
                   <a href="news-detail.html">
                     <img
-                      src="assets/images/recipe/skil.jpg"
+                      src="assets/images/recipe/chicken.jpg"
                       className="img-fluid news-image"
                       alt=""
                     />
@@ -21,13 +21,13 @@ function Recipe1() {
                   <div className="news-text-info news-text-info-large">
                     <h5 className="news-title mt-2">
                       <a href="news-detail.html" className="news-title-link">
-                        Braaied skilpadjies
+                        Herbed roast chicken
                       </a>
                       <div class="reviews-stars">
                         <i class="bi-star-fill reviews-icon"></i>
                         <i class="bi-star-fill reviews-icon"></i>
                         <i class="bi-star-fill reviews-icon"></i>
-                        <i class="bi-star reviews-icon"></i>
+                        <i class="bi-star-fill reviews-icon"></i>
                         <i class="bi-star reviews-icon"></i>
                       </div>
                     </h5>
@@ -39,26 +39,27 @@ function Recipe1() {
                 <p>
                   <strong>INGREDIENTS</strong>
                   <br />
-                  550 g free-range lamb skilpadjies
+                  2 T butter, softened 1 T olive oil
                   <br />
-                  2 t coriander seeds, crushed coarsely
+                  15 g fresh parsley, finely chopped
                   <br />
-                  salt, to taste
+                  15 g fresh thyme leaves
                   <br />
-                  2 T sunflower oil
+                  1 lemon, zested
+                  <br />
+                  1 whole chicken
                   <br />
                 </p>
 
                 <p>
                   {" "}
                   <a href="/">COOKING INSTRUCTIONS</a> <br />
-                  Sprinkle the skilpadjies with coriander and season. Heat
-                  the oil in a cast-iron pan over the coals. Fry the skilpadjies
-                  until golden brown. To test if they’re cooked make a small
-                  incision, they should be pink inside. If you prefer them well
-                  done, cook for longer.
-                  <br />
+                  Mix the butter, oil, herbs and lemon zest. Rub the chicken
+                  with the butter-and-oil mixture and place a few sprigs of
+                  herbs and half the lemon in the cavity. Roast for 1 hour at
+                  180ºC or until golden brown and cooked through.{" "}
                 </p>
+
                 <span className="category-tag bg-success">
                 <Link to={"/"}>Back</Link>
                  </span>
@@ -71,4 +72,4 @@ function Recipe1() {
   );
 }
 
-export default Recipe1;
+export default Recipe3;

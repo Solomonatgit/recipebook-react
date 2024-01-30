@@ -1,7 +1,7 @@
 import { Fragment } from "react";
 import { Link } from "react-router-dom";
 
-function Recipe1() {
+function Recipe2() {
   return (
     <Fragment>
       <main>
@@ -12,7 +12,7 @@ function Recipe1() {
                 <div className="news-thumb mb-4">
                   <a href="news-detail.html">
                     <img
-                      src="assets/images/recipe/skil.jpg"
+                      src="assets/images/recipe/fish.jpg"
                       className="img-fluid news-image"
                       alt=""
                     />
@@ -21,7 +21,7 @@ function Recipe1() {
                   <div className="news-text-info news-text-info-large">
                     <h5 className="news-title mt-2">
                       <a href="news-detail.html" className="news-title-link">
-                        Braaied skilpadjies
+                        Braaied Fish
                       </a>
                       <div class="reviews-stars">
                         <i class="bi-star-fill reviews-icon"></i>
@@ -39,26 +39,41 @@ function Recipe1() {
                 <p>
                   <strong>INGREDIENTS</strong>
                   <br />
-                  550 g free-range lamb skilpadjies
+                  2 whole Cape bream, cleaned
                   <br />
-                  2 t coriander seeds, crushed coarsely
+                  sea salt and freshly ground black pepper, to taste
                   <br />
-                  salt, to taste
+                  2 lemons, sliced
                   <br />
-                  2 T sunflower oil
+                  1 bulb fennel, sliced
+                  <br />
+                  2 red onions, sliced
+                  <br />
+                  150 g medium-fat butter with garlic and herbs
+                  <br />
+                  lemon wedges, for serving
                   <br />
                 </p>
 
                 <p>
                   {" "}
                   <a href="/">COOKING INSTRUCTIONS</a> <br />
-                  Sprinkle the skilpadjies with coriander and season. Heat
-                  the oil in a cast-iron pan over the coals. Fry the skilpadjies
-                  until golden brown. To test if they’re cooked make a small
-                  incision, they should be pink inside. If you prefer them well
-                  done, cook for longer.
+                  1. Rinse the inside of the fish and pat dry with kitchen
+                  paper. Season the inside, then add the lemon, fennel with some
+                  of its stalks and fronds, onion and butter.
                   <br />
+                  2. Wrap a sheet of baking paper around the middle of each
+                  fish, leaving some of the tail and head exposed. Layer 4
+                  sheets of newspaper and place the fish in the middle. Fold
+                  over the sides, covering the head and tail first, then the
+                  body. Repeat with the second fish. Use butcher’s twine to
+                  secure the fish in their newspaper parcels, then submerge in
+                  water for 5 minutes.
+                  <br />
+                  3. Place the fish onto medium coals and cook for 10 minutes,
+                  then turn over and cook for a further 10 minutes.{" "}
                 </p>
+
                 <span className="category-tag bg-success">
                 <Link to={"/"}>Back</Link>
                  </span>
@@ -71,4 +86,4 @@ function Recipe1() {
   );
 }
 
-export default Recipe1;
+export default Recipe2;

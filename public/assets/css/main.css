@@ -1,18 +1,10 @@
-/*
-
-Tooplate 2129 Crispy Kitchen
-
-https://www.tooplate.com/view/2129-crispy-kitchen
-
-*/
-
 
 /*---------------------------------------
   CUSTOM PROPERTIES ( VARIABLES )             
 -----------------------------------------*/
 :root {
   --white-color:                  #FFFFFF;
-  --primary-color:                #f44749;
+  --primary-color:                #2BAE66FF;
   --secondary-color:              #f3af24;
   --section-bg-color:             #F9F9F9;
   --dark-color:                   #000000;
@@ -289,21 +281,6 @@ strong {
   padding-bottom: 6rem;
 }
 
-.site-about-header {
-  background-image: url('../images/header/briana-tozour-V_Nkf1E-vYA-unsplash.jpg');
-}
-
-.site-menu-header {
-  background-image: url('../images/header/luisa-brimble-aFzg83dvnAI-unsplash.jpg');
-}
-
-.site-news-header {
-  background-image: url('../images/header/priscilla-du-preez-W3SEyZODn8U-unsplash.jpg');
-}
-
-.site-contact-header {
-  background-image: url('../images/header/rod-long-I79Pgmhmy5M-unsplash.jpg');
-}
 
 .overlay {
   background: linear-gradient(to top, var(--dark-color), transparent 100%);
@@ -438,11 +415,11 @@ strong {
 }
 
 .hero-carousel .carousel-control-prev-icon::before {
-  content: "\f13f";
+  content: "\f12f";
 }
 
 .hero-carousel .carousel-control-next-icon::before {
-  content: "\f144";
+  content: "\f138";
 }
 
 .reviews-icon {
