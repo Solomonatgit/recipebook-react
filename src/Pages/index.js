@@ -63,7 +63,7 @@ function Index() {
                     <div class="carousel-item">
                       <div class="carousel-image-wrap">
                         <img
-                          src="assets/images/slide/fish.WEBP"
+                          src="assets/images/slide/fish.jpeg"
                           class="img-fluid carousel-image"
                           alt=""
                         />
@@ -83,7 +83,7 @@ function Index() {
                     <div class="carousel-item">
                       <div class="carousel-image-wrap">
                         <img
-                          src="assets/images/slide/chicken.WEBP"
+                          src="assets/images/slide/chicken.jpg"
                           class="img-fluid carousel-image"
                           alt=""
                         />
